@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+li {
+  list-style-type: none;
+}
+
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#gamePlay {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid #000;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+#name {
+  margin: 50px 0;
+  font-family: fantasy;
+  text-shadow:  #f30;
+  color: #f34;
+}
+
+#canvas {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid #09f;
+  background: #ccc;
+  z-index: -1;
+}
+
+#score {
+  display: none;
+  position: absolute;
+  top: -250px;
+  left: -250px;
+  padding: 0 4px;
+  user-select: none;
+}
+
+#score span {
+  margin-left: 4px;
+  font-size: 21px;
+}
+
+#gameOver {
+  display: none;
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  border: 5px solid #000;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  user-select: none;
+}
+
+#gameOver div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#gameOver div h1 {
+  color: #05f;
+}
+
+#restart {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+}

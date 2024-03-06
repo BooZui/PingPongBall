@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ping Pong Ball</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="gamePlay">
+        <h1 id="name">PINGPONG GAME</h1>
+        <ul>
+          <li>
+            <button id="playButton">Play</button>
+          </li>
+          <li>Game Size:
+            <button type="button" id="gameSizeButton">500</button>
+          </li>
+          <li>Speed Ball
+
+          </li>
+          <li>Speed Bar
+
+          </li>
+          <li>Info</li>
+        </ul>
+      </div>
+
+      <canvas id="canvas"></canvas>
+      <h2 id="score">score:<span>0</span></h2>
+
+      <div id="gameOver">
+        <div>
+          <h1>GAME OVER</h1>
+          <h2>
+            score:
+            <span id="displayScore">0</span>
+          </h2>
+          <button id="restart">Restart</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="src/script.js"></script>
+  </body>
+</html>
